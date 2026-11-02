@@ -14,6 +14,8 @@ Create a GitHub Actions workflow that runs the provided tests on pull requests.
 
 Inject some bugs to the implementations of the source files and open a pull request to observe what happens.
 
+Testing GitHub Actions workflow - Tutorial 7.
+
 ---
 
 ## Expected Results
