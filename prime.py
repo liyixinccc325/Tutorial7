@@ -1,15 +1,15 @@
-# prime.py 
+# prime.py
 import math
 
 def is_prime(number):
     if number < 2:
-        return True
+        return False
     for i in range(2, int(math.sqrt(number)) + 1):
         if number % i == 0:
             return False
     return True
 
-if __name__ == '__main__':
+if __name__ == '__&#8203;main__':
     number = int(input("Input an integer: "))
     if is_prime(number):
         print(f"{number} is prime.")
